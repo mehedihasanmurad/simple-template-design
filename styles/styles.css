@@ -1,0 +1,38 @@
+
+
+.container-main {
+    display:flex;
+    align-items: center;
+    background-color: rgba(238, 224, 231, 0.8);
+    max-width: 270px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+.container-icon {
+    padding-left: 20px;
+    padding-right: 7px;
+}
+
+.container-icon .fa-bolt {
+    color: red;
+}
+
+.container-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 200px; */
+    width: 200px;
+}
+
+.container-title .reaction {
+    color: red;
+}
+
+.container-title .span {
+    font-weight: 900;
+}
+
+
+
