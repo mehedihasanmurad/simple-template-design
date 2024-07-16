@@ -7,6 +7,7 @@ body{
 .result{
     background-color: blue;
     text-align: center;
+    /* align-items: center; */
     padding: 20px 60px;
     color: white;
     width: 40%;
