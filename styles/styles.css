@@ -1,12 +1,19 @@
 
+.container {
+    max-width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 2px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
 
 .container-main {
     display:flex;
     align-items: center;
     background-color: rgba(238, 224, 231, 0.8);
     max-width: 270px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .container-icon {
@@ -32,6 +39,16 @@
 
 .container-title .span {
     font-weight: 900;
+}
+
+
+/* second icon */
+.container-icon .fa-landmark-flag {
+    color: orange;
+}
+
+.container-title .memory {
+    color: orange;
 }
 
 
